@@ -38,7 +38,8 @@ li:hover {
         - Grid 레이아웃의 열의 크기를 지정하는 속성
         (여기서는 3개의 열 크기를 auto 지정)
     */
-    grid-template-columns: auto auto auto;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: repeat(4, auto);
     /* background-color: royalblue; */
     padding: 10px;
 }
