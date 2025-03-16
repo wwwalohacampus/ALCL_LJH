@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery 준비하기</title>
+
+  <!-- jQuery 라이브러리 파일 -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+   
+  <!-- CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <script>
+    // javascript 문서 준비 이벤트
+    // document.addEventListener("DOMContentLoaded", () => {})
+
+    // jQuery 문서 준비 이벤트
+    $(document).ready(function() {
+      alert("Hello jQuery~!")
+    })
+
+    // jQuery 문서 준비 이벤트 축약형
+    $(function() {
+      alert("Hello jQuery~!")
+      $('h1').text('Hello jQuery~!')
+    })
+
+  </script>
+   
+</head>
+<body>
+  <h1>안녕하세요</h1>ㅋ
+</body>
+</html>
